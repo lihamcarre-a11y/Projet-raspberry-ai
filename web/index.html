@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raspberry AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Raspberry AI</h1>
+    <button id="clear-btn" title="Effacer la conversation">Nouvelle conversation</button>
+  </header>
+  <main id="chat"></main>
+  <footer>
+    <div class="input-row">
+      <button id="mic-btn" title="Parler">🎤</button>
+      <input id="text-input" type="text" placeholder="Votre message…" autocomplete="off">
+      <button id="send-btn">Envoyer</button>
+    </div>
+    <div id="status"></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
